@@ -1,2 +1,2 @@
 # oscar_stuff
-For files that make my life easier when working with Oscar, the HPC cluster at Brown
+A collection of files that make my life easier when working with Oscar, the HPC cluster at Brown
