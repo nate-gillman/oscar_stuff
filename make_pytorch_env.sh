@@ -21,7 +21,7 @@ conda create -n $env_name python=$python_version
 conda activate /users/ngillman/.conda/envs/$env_name
 
 # Install the PyTorch that works on GPUs
-conda install pytorch cudatoolkit -c pytorch
+conda install pytorch torchvision cudatoolkit -c pytorch
 
 # Install other basics that are needed to run pytorch
 conda install numpy
