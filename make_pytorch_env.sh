@@ -28,7 +28,7 @@ conda install numpy
 
 # To verify that this worked, enter python shell from terminal in GPU interactive mode...
 #
-# interact -q gpu -g 1 -t 04:00:00
+# interact -q gpu -g 1 -t 04:00:00 -m 14g
 # python
 # >>> import torch
 # >>> torch.cuda.is_available()
