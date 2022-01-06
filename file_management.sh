@@ -7,3 +7,6 @@ ncdu .
 
 # For computing how much data is being used in each folder in the current directory; gives less detailed breakdown
 du -s -m .
+
+# For computing how much data is being used in the folder nates_stuff in the current directory
+du -sh nates_stuff/
