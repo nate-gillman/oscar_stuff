@@ -10,3 +10,6 @@ du -s -m .
 
 # For computing how much data is being used in the folder nates_stuff in the current directory
 du -sh nates_stuff/
+
+# For computing how much data is being used in the subdirectories of the folder nates_stuff in the current directory
+du -shc nates_stuff/*
