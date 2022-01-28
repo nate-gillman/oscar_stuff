@@ -1,6 +1,9 @@
 # For zipping all files in the current directory
 zip -r archive.zip .
 
+# To zip a directory recursively
+zip –r filename.zip directory_name
+
 # For computing how much data is being used in each folder in the current directory; gives detailed breakdown
 module load ncdu
 ncdu .
