@@ -1,5 +1,4 @@
 # Using screen on Oscar
- *by William Rudman, Nate Gillman, Taylor Rayne, and Carsten Eickhoff*
 
 See the ccv docs ([https://docs.ccv.brown.edu/oscar/software/screen](https://docs.ccv.brown.edu/oscar/software/screen)) for more information. 
 
