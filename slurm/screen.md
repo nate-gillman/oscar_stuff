@@ -16,7 +16,7 @@ See the ccv docs ([https://docs.ccv.brown.edu/oscar/software/screen](https://doc
 - ssh into Oscar as normal
 - List running screens by executing ```screen -ls```
 - If the screen session you want to join is on login005, say, but you're not on that login node, then execute ```ssh login005``` to join that node
-- From the same login node that the screen session was launched from, you can resume the session by executing ```screen -r screen-login005```
+- From the same login node that the screen session was launched from, resume the session via ```screen -r screen-login005```
 
 ### Killing a screen session
 
