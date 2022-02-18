@@ -20,4 +20,4 @@ See the ccv docs ([https://docs.ccv.brown.edu/oscar/software/screen](https://doc
 
 ### Killing a screen session
 
-- screen -XS screen-login005 quit
+- ```screen -XS screen-login005 quit```
