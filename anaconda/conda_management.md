@@ -1,13 +1,15 @@
-# List available conda envs
-conda info --envs
+# Misc commands for managing environments using Conda on Oscar
 
-# List all packages in current environment
-conda list
+### List available conda envs
+```conda info --envs```
 
-# Delete a conda env
+### List all packages in current environment
+```conda list```
+
+### Delete a conda env
 conda env remove -n ENV_NAME
 
-# Deletes temporary and unnecessary files; saves space in home directory. CCV staff says I should do this once a week
+### Deletes temporary and unnecessary files; saves space in home directory. CCV staff says I should do this once a week
 conda clean --all
 
 # Exports the activated conda environment into a yaml file. Use case: want to re-create environment on same machine at a later date
