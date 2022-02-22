@@ -18,8 +18,10 @@
 ### Exports the activated conda environment into a yaml file
 Use case: want to re-create environment on different machine at a later date.
 E.g. if I have a conda environment on mac, and I want to move it to Oscar. This ONLY includes the packages that you installed manually
+
 ```conda env export --from-history > ENV_NAME.yml```
 
 ### See conda configuration information
 If I hypothetically wanted to delete all conda info (would require me setting up "conda init" later), I'd look inside this doc
+
 ```ls ~/.bashrc```
