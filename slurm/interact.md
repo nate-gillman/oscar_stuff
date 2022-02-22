@@ -1,4 +1,4 @@
-# Commands for launching interactive jobs using the Slurm scheduler on Oscar
+# Launching interactive jobs using Slurm scheduler on Oscar
 
 ### Requesting a 4 hour interactive GPU job with 1 core and 63gb of memory
 ```interact -q gpu -g 1 -t 04:00:00 -m 63g```
