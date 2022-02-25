@@ -11,3 +11,6 @@
 
 ### Checking status of all job requests on the Condo
 ```condo cs-3090-gcondo```
+
+### Checking usage statistics for all GPU nodes on Oscar
+```nodes gpu```
