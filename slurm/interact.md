@@ -7,7 +7,7 @@
 ```interact -q 3090-gcondo -g 1 -t 04:00:00 -m 63g```
 
 ### Requesting an 8 hour interactive CPU job with 1 core and 31gb of memory
-```interact -n 1 -t 08:00:00 -m 31g```
+```interact -n 1 -t 8:00:00 -m 31g```
 
 ### Checking status of all job requests on the Condo
 ```condo cs-3090-gcondo```
