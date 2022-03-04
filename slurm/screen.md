@@ -7,7 +7,7 @@ See the ccv docs ([https://docs.ccv.brown.edu/oscar/software/screen](https://doc
 - ssh into Oscar as normal
 - Take note of the login node (probably login005 or login006)
 - Start a new screen session with ```screen -S screen-login005```. It's important to include the name of the login node in the name of the screen session.
-- Launch interactive session, via ```interact -q 3090-gcondo -g 1 -t 1:30:00 -m 63g```
+- Launch interactive session, via ```interact -q 3090-gcondo -g 1 -t 168:00:00 -m 63g``` or ```interact -q 3090-gcondo -g 2 -n 4 -t 120:00:00 -m 63g```
 - Do some fun coding!!
 - Exit screen session by exiting terminal
 
