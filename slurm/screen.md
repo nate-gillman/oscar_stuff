@@ -28,5 +28,5 @@ interact -q 3090-gcondo -g 2 -n 4 -t 120:00:00 -m 63g    # 2 gpus, 4 cpus
 
 ### When inside a screen session...
 
-- To scroll, do ```Control + a```, then ```esc```, then scroll normally
+- To scroll, do ```control``` + ```a```, then ```esc```, then scroll normally
 - When done scrolling, do ```q``` or ```esc```
