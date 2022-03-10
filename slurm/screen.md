@@ -9,8 +9,8 @@ See the ccv docs ([https://docs.ccv.brown.edu/oscar/software/screen](https://doc
 - Start a new screen session with ```screen -S screen-login005```. It's important to include the name of the login node in the name of the screen session.
 - Launch interactive session, via a command like the following:
 ```
-interact -q 3090-gcondo -g 1 -n 1 -t 168:00:00 -m 63g    # 1 gpu, 1 cpu
-interact -q 3090-gcondo -g 2 -n 4 -t 120:00:00 -m 63g    # 2 gpus, 4 cpus
+interact -q 3090-gcondo -g 1 -n 1 -t 12:00:00 -m 63g    # 1 gpu, 1 cpu
+interact -q 3090-gcondo -g 2 -n 4 -t 12:00:00 -m 63g    # 2 gpus, 4 cpus
 ```
 - Do some fun coding!!
 - Exit screen session by exiting terminal
@@ -30,3 +30,9 @@ interact -q 3090-gcondo -g 2 -n 4 -t 120:00:00 -m 63g    # 2 gpus, 4 cpus
 
 - To scroll, do ```control``` + ```a```, then ```esc```, then scroll normally
 - When done scrolling, do ```q``` or ```esc```
+
+### VERY IMPORTANT: Screen session etiquitte
+
+- DO NOT hog GPU nodes
+- DO release the resources when a command finishes
+- Appropriate use case for screen session: if you're actively debugging. Once done debugging, it's more appropriate to launch a slurm script, so that computing resources can be allocated more fairly.
