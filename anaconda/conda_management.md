@@ -1,7 +1,7 @@
 # Misc commands for managing environments using Conda on Oscar
 
 ### List available conda envs
-```conda info --envs```
+```conda env list```
 
 ### List all packages in current environment
 ```conda list```
