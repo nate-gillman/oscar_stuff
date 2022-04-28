@@ -18,7 +18,7 @@ source /gpfs/runtime/opt/anaconda/2020.02/etc/profile.d/conda.sh
 conda create -n $env_name python=$python_version
 
 # Activate virtual environment
-conda activate /users/ngillman/.conda/envs/$env_name
+conda activate /users/ngillman/anaconda/$env_name
 
 # Install the PyTorch that works on GPUs
 conda install pytorch torchvision cudatoolkit -c pytorch
