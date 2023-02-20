@@ -23,3 +23,7 @@ ncdu .
 
 ### For computing how much data is being used in the subdirectories of the folder nates_stuff in the current directory
 ```du -shc nates_stuff/*```
+
+### For removing a git large file I accidentally committed
+
+https://stackoverflow.com/questions/33360043/git-error-need-to-remove-large-file
