@@ -26,4 +26,4 @@ ncdu .
 
 ### For removing a git large file I accidentally committed
 
-[https://stackoverflow.com/questions/33360043/git-error-need-to-remove-large-file](https://marcosantonocito.medium.com/fixing-the-gh001-large-files-detected-you-may-want-to-try-git-large-file-storage-43336b983272)
+[[https://stackoverflow.com/questions/33360043/git-error-need-to-remove-large-file](https://marcosantonocito.medium.com/fixing-the-gh001-large-files-detected-you-may-want-to-try-git-large-file-storage-43336b983272)](https://marcosantonocito.medium.com/fixing-the-gh001-large-files-detected-you-may-want-to-try-git-large-file-storage-43336b983272)
